@@ -19,7 +19,7 @@ finalmente se hace un ejemplo del empleo del programa para cada clase
 z=Zeros(np.cos,'newton',0,error=1e-4,max_iter=100).zero((np.pi/2))
 print(z)
 print("***")
-uso de la calse Derivada
+#uso de la calse Derivada
 d=Derivada(np.cos,'segunda',dx=0.001).calc(np.pi)
 print (d)
 ~~~
